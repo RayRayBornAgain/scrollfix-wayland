@@ -1,0 +1,16 @@
+{
+	"schemaVersion": 1,
+	"id": "scrollfix_wayland",
+	"version": "${version}",
+	"name": "ScrollFix Wayland",
+	"description": "Drops duplicate mouse-wheel events so the hotbar stops skipping every other slot on Linux/Wayland.",
+	"authors": ["Rusty"],
+	"license": "MIT",
+	"environment": "client",
+	"mixins": ["scrollfix_wayland.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25"
+	}
+}
